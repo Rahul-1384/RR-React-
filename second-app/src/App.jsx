@@ -1,5 +1,6 @@
 import React from 'react'
 import Products from './Components/Products';
+import FetchApi from './components/FetchApi';
 
 
 const App = () => {
@@ -31,9 +32,11 @@ const App = () => {
   ]
   return (
     <div>
-      <div className='mt-9'>
+      {/* <div className='mt-9'>
         <Products items={products}/>
       </div>
+      <PracticeProps name="Rahul" /> */}
+      <FetchApi />
     </div>
   )
 }
