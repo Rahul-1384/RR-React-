@@ -1,0 +1,28 @@
+.heading, .grid-container{
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.heading{
+  font-size:xx-large;
+  font-weight: bolder;
+}
+
+.grid-container{
+  display: grid;
+  row-gap: 1rem;
+}
+.grid-element{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 1rem;
+}
+input{
+  border: 2px solid black;
+}
+button{
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
