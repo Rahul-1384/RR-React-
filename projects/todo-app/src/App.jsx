@@ -1,5 +1,6 @@
 import './App.css'
 import AddToDo from './components/AddToDo';
+import MapMethod from './components/MapMethod';
 import Navbar from './components/Navbar';
 import ToDoItem from './components/ToDoItem';
 
